@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/date.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#datepicker" ).datepicker();
+    } );
+    </script>
+    <title>Document</title>
+</head>
+<body>    
+        <div class="row" style="padding: 50px 50px;">
+            <div class="col-md-12 text-center">
+                <div class="container">
+                    <div class="card">
+                        <h4><b>FYP MEETING FORM</b></h4> 
+                        <h5>New Meeting</h5> 
+                        
+                        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+                        <form action="" class="text-left" style="padding-top: 20px;">
+                            <p>Meeting Date: <input type="text" id="datepicker"></p>
+
+                            <div class="form-group text-left" style="padding-top: 10px;">
+                                <label for="exampleFormControlTextarea1">Next Meeting Assignments</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5 "></textarea>
+                              </div>
+
+                              <div class="text-center">
+                                <a href="submit.html" class="btn btn-primary" style="border-radius: 25px;">Submit</a>
+                               </div>
+                        </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>
